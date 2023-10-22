@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 import io
-import plotly as px
+import plotly.express as px
 import altair as alt
 import matplotlib.pyplot as plt
 import seaborn as sns 
