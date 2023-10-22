@@ -4,6 +4,7 @@ pandas
 pydeck
 streamlit
 plotly
+plotly.express
 seaborn
 matplotlib
 chardet
