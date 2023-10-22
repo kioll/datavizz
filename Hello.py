@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 import io
-import plotly.express as px
+import plotly as px
 import altair as alt
 import matplotlib.pyplot as plt
 import seaborn as sns 
@@ -162,7 +162,7 @@ def main():
     nb_gratuit = len(data[data['gratuit']])
     nb_payant = len(data[~data['gratuit']])
 
-    import plotly.express as px
+    
 
     # Créer un DataFrame pour la visualisation
     df_pie = pd.DataFrame({
